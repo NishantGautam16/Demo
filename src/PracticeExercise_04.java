@@ -19,7 +19,6 @@ public class PracticeExercise_04 {
 	    System.out.println("tage name is : "+tag);
 	    driver.findElement(By.linkText("Link Test")).click();
 	    System.out.println("Successfully clicked on Link Test");
-	    driver.close();
 
 	}
 
